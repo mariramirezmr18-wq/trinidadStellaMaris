@@ -1,0 +1,122 @@
+ *{
+  
+    margin: 0px;
+    padding: 0px;
+}
+body{background-color: rgb(102, 155, 161)}
+#contenedor{
+    border-top-right-radius: 2px;
+    margin: auto;
+    width: 1000px;
+    height: 730px;
+    background-color: rgb(24, 78, 82);
+}
+#encabezado{
+    border-style: solid;
+    border-color: black;
+    padding-top: 5%;
+    
+    background-size:100% 100%;
+    height: 180px;
+    width: 994px;
+
+} 
+#menuSuperior{ 
+    border-style: solid;
+    border-color: black;
+    height: 70px;
+    width: 994px;
+    background-color:rgb(42, 122, 122);
+}
+#menuSuperior ul{
+    list-style: none;
+    padding: 0px;
+    background-color:rgb(42, 122, 122) ;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0%;
+}
+#menuSuperior ul li{
+display:inline-block;
+text-align: center;
+position: relative;
+}
+#menuSuperior ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 5);
+    padding: 20px;
+    display:block;
+}
+#menuSuperior ul li a:hover{
+    background-color:  rgb(241, 240, 142);
+}
+#menuSuperior ul li:hover #submenu{
+    margin-bottom:0%;
+    margin-top:0%;
+    display:block;
+}
+#submenu{ 
+    border-style: solid;
+    border-color: black;
+    margin-top: 0%;
+    position:absolute;
+    display:none;
+    width: 100%;
+}
+
+#seccion { 
+    align-items: center;
+    align-content: center;
+    padding-left: 4px;
+    border-style: solid;
+    border-color: black;
+    width: 790px;
+    height: 344px;
+    background-color: rgb(241, 240, 142);
+    float: left;
+} 
+#seccion h3{
+    font-size: x-large;
+    text-align: center;
+}
+#seccion p{ 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    font-weight: 500; 
+    font-style:normal;
+}
+#seccion ul{
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   font-size: medium;
+   font-weight: 250;
+    color: rgb(0, 0, 5);
+    padding: 20px;
+}
+#menuLateral{
+    width: 200px;
+    height: 350px;
+    background-color:rgb(2, 6, 7);
+    float: right;
+} 
+#menuLateral h3{
+    line-height: 64px;
+    text-align: center;
+    background-color: rgb(241, 240, 142);
+    border-style: solid;
+    border-color: rgb(5, 5, 5);
+}
+#menuLateral h3 a{
+    color: rgb(5, 5, 5);
+}
+#pie {
+    border-style: solid;
+    border-color: black;
+}
+#pie img{ 
+    margin-left: 18%;
+    border-top: 3%;
+    width: 700px;
+    height: 63px;
+    background-color: rgb(46, 129, 118);
+    background-position: center;
+}
