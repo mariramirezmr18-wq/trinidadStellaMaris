@@ -21,6 +21,12 @@ body{background-color: rgb(102, 155, 161)}
     width: 994px;
 
 } 
+#encabezado h2{
+  
+    font-size: x-large;
+    text-align: center
+  
+}
 #menuSuperior{ 
     border-style: solid;
     border-color: black;
@@ -119,4 +125,5 @@ position: relative;
     height: 63px;
     background-color: rgb(46, 129, 118);
     background-position: center;
+
 }
