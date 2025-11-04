@@ -24,7 +24,7 @@ body{background-color: rgb(102, 155, 161)}
 #encabezado h1{
   
     font-size: x-large;
-    text-align: center
+    text-align: center;
   
 }
 #menuSuperior{ 
@@ -127,4 +127,5 @@ position: relative;
     background-position: center;
 
 }
+
 
