@@ -21,7 +21,7 @@ body{background-color: rgb(102, 155, 161)}
     width: 994px;
 
 } 
-#encabezado h2{
+#encabezado h1{
   
     font-size: x-large;
     text-align: center
@@ -127,3 +127,4 @@ position: relative;
     background-position: center;
 
 }
+
